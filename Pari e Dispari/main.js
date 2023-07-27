@@ -40,6 +40,8 @@ const totalNumberWinner = pariDispariWinner();
 console.log(results);
 
 /* STABILIRE IL VINCITORE.... */
+// ? Se il risultato è pari e l'utente ha scritto 'pari'...
+// ? Altrimenti se il risultato è dispari e l utente ha scritto dispari..
 /* if (results % 2 == 0 && e pari) {
     alert('hai vinto');
 } else if (results % 2 !== 0 e dispari){
@@ -47,3 +49,19 @@ console.log(results);
 } else {
     alert ('hai perso');
 } */
+
+if (results % 2 == 0) {
+  if (userAnswer == "pari") {
+    console.log("hai vinto");
+  } else {
+    console.log("hai perso");
+  }
+} else {
+  if (userAnswer == "dispari") {
+    console.log("hai vinto");
+  } else {
+    console.log("hai perso");
+  }
+}
+// passare la somma e restituire una parola o "pari" o
+// "dispari" da confrontare con la parola scelta dall'utente
