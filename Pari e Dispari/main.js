@@ -35,10 +35,10 @@ function pariDispariWinner() {
   }
   return results;
 }
-
 const totalNumberWinner = pariDispariWinner();
 console.log(results);
 
+/* STABILIRE IL VINCITORE.... */
 if (results % 2 == 0 && e pari) {
     alert('hai vinto');
 } else if (results % 2 !== 0 e dispari){
