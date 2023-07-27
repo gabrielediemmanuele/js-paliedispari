@@ -43,9 +43,7 @@ if (totalNumber % 2 == 0) {
   }
 }
 
-// passare la "somma" (totalNumber) e restituire una parola o "pari" o
-// "dispari" da confrontare con la parola scelta dall'utente
-/* Tramite una funzione, creo un numero da 1 a 5 al pc */
+// generare un numero random per il pc da 1 a 5
 function getRandomNumber() {
   computerNumber = Math.floor(Math.random() * 5 + 1);
   return computerNumber;
@@ -59,3 +57,6 @@ function isEven(value) {
   }
   return results;
 }
+// passare la "somma" (totalNumber) e restituire una parola o "pari" o
+// "dispari" da confrontare con la parola scelta dall'utente
+/* Tramite una funzione, creo un numero da 1 a 5 al pc */
