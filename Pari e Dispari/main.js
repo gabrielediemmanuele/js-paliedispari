@@ -57,6 +57,7 @@ function isEven(value) {
   }
   return results;
 }
+
 // passare la "somma" (totalNumber) e restituire una parola o "pari" o
 // "dispari" da confrontare con la parola scelta dall'utente
 /* Tramite una funzione, creo un numero da 1 a 5 al pc */
